@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif; /* Clean, simple font */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff; /* White links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Simple hover effect */
+}
+
+/* Full-Width Banner and Logo */
+#banner {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Black background */
+}
+
+#banner img {
+    height: 250px; /* Adjust based on your needs */
+    width: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* Navigation Menu */
+#header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Spacing between navigation links */
+}
+
+#header nav ul li a {
+    color: #fff;
+    text-transform: uppercase; /* Uppercase text for bold effect */
+    font-size: 1.2em; /* Slightly larger font size */
+}
+
+/* Subheading (h2) Style */
+h2 {
+    font-size: 2.5em; /* Large, bold headings */
+    font-family: 'Arial Black', sans-serif; /* Impactful, bold font */
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    margin-left: 10px; /* Indent the entire site */
+}
+
+/* Grid Layout for Content */
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for grid layout */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+/* Thumbnail (Image) Style */
+.thumbnail {
+    width: 40%; /* Reduce width to 50% */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #fff; /* White border around images */
+    margin: 10px; /* Add margin to space out the images */
+    vertical-align: top; /* Align the images to the top */
+}
+
+
+#about {
+    text-align: center; /* Center all text within this section */
+}
+
+
+
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111; /* Slightly lighter than black */
+    color: #fff;
+}
+
+/* Section Margin */
+section {
+    margin: 20px 0;
+}
